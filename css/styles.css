@@ -26,14 +26,22 @@ button {
 
 .container {
   width: 1200px;
+  margin: 0 auto;
   outline: 2px solid black;
 }
+
+.header {
+  display: flex;
+  justify-content: center;
+}
 .nav-menu {
-  padding: 66px 320px 92px;
+  /* outline: 2px solid red; */
+  padding: 66px 0 92px;
 }
 
 .nav-list {
   display: flex;
+  width: 555px;
   justify-content: space-between;
 }
 
@@ -48,13 +56,15 @@ button {
 
 /*main*/
 .content {
-  padding: 0 147px 66px;
+  padding-bottom: 66px;
 }
 
 .main-list {
   display: flex;
+  width: 906px;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .main-list-item:not(:nth-child(n + 5)) {
   margin-bottom: 130px;
